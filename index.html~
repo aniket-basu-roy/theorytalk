@@ -42,19 +42,19 @@ Speaker: Kirankumar Shiragur </p>
 <ul>
 Here are the references:
 <li>
-O(n^3) in 1-dimension, O(n^10 d^2) in d-dimension and O(n^2 ) lower bound in 2-dimension is from this <a href="http://arxiv.org/abs/1211.1909">paper</a>.
+$O(n^3)$ in 1-dimension, $O(n^10 d^2)$ in $d$-dimension and $O(n^2 )$ lower bound in 2-dimension is from this <a href="http://arxiv.org/abs/1211.1909">paper</a>.
 </li>
 <li>
-O(n^3) independent result using lyapunov function for 1-dimension <a href="http://arxiv.org/abs/1211.4189">[link]</a>.
+$O(n^3)$ independent result using lyapunov function for 1-dimension <a href="http://arxiv.org/abs/1211.4189">[link]</a>.
 </li>
 <li>
-O(n^4) in any dimension(independent of dimension) <a href="http://arxiv.org/pdf/1501.02183.pdf">[link]</a>.
+$O(n^4)$ in any dimension(independent of dimension) <a href="http://arxiv.org/pdf/1501.02183.pdf">[link]</a>.
 </li>
 <li>
 Equidistant configuration is very well studied in this <a href="http://arxiv.org/abs/1406.0819">paper</a>.
 </li>
 <li>
-Lower bound of O(n^2) is 1-dimension(Dumbbell configuration) <a href="http://arxiv.org/abs/1406.0769">[link]</a>.
+Lower bound of $O(n^2)$ is 1-dimension(Dumbbell configuration) <a href="http://arxiv.org/abs/1406.0769">[link]</a>.
 </li>
 <li>
 Strategic agents model is novel and studied in this <a href="http://arxiv.org/abs/1411.4814">paper</a>.
