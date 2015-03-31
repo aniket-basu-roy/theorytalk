@@ -36,15 +36,21 @@
       <section id="main_content" class="inner">
         <p>This is a weekly series of informal talks given by people enthusiastic about Theoretical Computer Science. The goal is to have an interactive session discussing papers, book chapters or anything worthwhile that would broaden our common knowledge. The speaker should consider the background of the audience and spend ample time in laying the basics of the material before going on to the nitty-gritties. Also note this is <em>not</em> a platform to prove one's smartness but mutually learn something new.</p>
 
+<br/>
+<p>
+<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTz=0&amp;height=300&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=10ncrbr8s8knk7bq58qar449lk%40group.calendar.google.com&amp;color=%23711616&amp;ctz=Asia%2FCalcutta" style=" border-width:0 " width="500" height="300" frameborder="0" scrolling="no"></iframe>
+</p>
+<br/>
+
 <hr>
 <h2>
-<a id="week-2" class="anchor" href="#week-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>March 30, 2015</h2>
+<a id="week-3" class="anchor" href="#week-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>March 30, 2015</h2>
 <p><strong>On the Convergence of the Hegselmann-Krause System<br/> </strong>
 Speaker: Kirankumar Shiragur </p>
 <ul>
 Here are the references:
 <li>
-$O(n^3)$ in 1-dimension, $O(n^10 d^2)$ in $d$-dimension and $O(n^2 )$ lower bound in 2-dimension is from this <a href="http://arxiv.org/abs/1211.1909">paper</a>.
+$O(n^3)$ in 1-dimension, $O(n^{10} d^2)$ in $d$-dimension and $O(n^2 )$ lower bound in 2-dimension is from this <a href="http://arxiv.org/abs/1211.1909">paper</a>.
 </li>
 <li>
 $O(n^3)$ independent result using lyapunov function for 1-dimension <a href="http://arxiv.org/abs/1211.4189">[link]</a>.
