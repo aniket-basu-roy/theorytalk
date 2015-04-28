@@ -43,12 +43,43 @@
 <br/>
 
 <hr>
+
+<h2>
+<a id="week-5" class="anchor" href="#week-5" aria-hidden="true"><span class="octicon octicon-link"></span></a>April 27, 2015</h2>
+<p><strong> Sparse Polynomial Identity Testing <br/> </strong>
+Vineet Nair</p>
+Consider the problem of Polynomial Identity Testing(PIT): we are given an arithmetic circuit computing an n variate, degree d polynomial over some 
+field and we have to determine whether that polynomial is identically zero or not. In this presentation we look at blackbox PIT, where we can just 
+query the circuit on different points from the underlying field, Klivans and Spielman showed that this can be done in poly(n,d,m) time, where m is 
+the number of monomials in the given polynomial. Hence if m and d is polynomial in n, we can do blackbox PIT in polynomial time. The paper by 
+Klivans and Spielman is here<a href="http://www.cs.yale.edu/homes/spielman/PAPERS/ran3.pdf">.
+
+<h2>
+<a id="week-4" class="anchor" href="#week-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>April 15, 2015</h2>
+<p><strong> Reed-Solomon codes - Why and How ? <br/> </strong>
+Speaker: Ninad Rajgopal </p>
+<ul>
+<li>
+Coding Theory 101 - A good reference for the basics of coding theory which I covered are the course handouts by Venkatesan Guruswami's
+course<a href="http://www.cs.cmu.edu/~venkatg/teaching/codingtheory/"> at CMU in Spring, 2010. 
+</li>
+<li>
+Reed-Solomon (RS) Codes - Most of my presentation followed notes6<a href="http://www.cs.cmu.edu/~venkatg/teaching/codingtheory/notes/notes6.pdf">
+(Properties) and notes7<a href="http://www.cs.cmu.edu/~venkatg/teaching/codingtheory/notes/notes7.pdf"> (Decoding), of the course mentioned 
+above. I covered the Berlekamp-Welch decoding algorithm during the talk. The other algorithm (Peterson's algorithm) is also present in the
+handout and is a really zany algorithm. </li>
+<li>
+Another nice reference to coding theory is the book<a href="http://www.cse.buffalo.edu/~atri/courses/coding-theory/book/"> by Guruswami, Rudra and 
+Sudan, which is a combination of the lectures offered by the respective people.
+</li>
+</ul>
+
 <h2>
 <a id="week-3" class="anchor" href="#week-3" aria-hidden="true"><span class="octicon octicon-link"></span></a>March 30, 2015</h2>
 <p><strong>On the Convergence of the Hegselmann-Krause System<br/> </strong>
 Speaker: Kirankumar Shiragur </p>
 <ul>
-Here are the references:
+References -
 <li>
 $O(n^3)$ in 1-dimension, $O(n^{10} d^2)$ in $d$-dimension and $O(n^2 )$ lower bound in 2-dimension is from this <a href="http://arxiv.org/abs/1211.1909">paper</a>.
 </li>
@@ -56,29 +87,34 @@ $O(n^3)$ in 1-dimension, $O(n^{10} d^2)$ in $d$-dimension and $O(n^2 )$ lower bo
 $O(n^3)$ independent result using lyapunov function for 1-dimension <a href="http://arxiv.org/abs/1211.4189">[link]</a>.
 </li>
 <li>
-$O(n^4)$ in any dimension(independent of dimension) <a href="http://arxiv.org/pdf/1501.02183.pdf">[link]</a>.
+$O(n^4)$ in any dimension (independent of dimension) <a href="http://arxiv.org/pdf/1501.02183.pdf">[link]</a>.
 </li>
 <li>
-Equidistant configuration is very well studied in this <a href="http://arxiv.org/abs/1406.0819">paper</a>.
+Equi-distant configuration is very well studied in this <a href="http://arxiv.org/abs/1406.0819">paper</a>.
 </li>
 <li>
-Lower bound of $O(n^2)$ is 1-dimension(Dumbbell configuration) <a href="http://arxiv.org/abs/1406.0769">[link]</a>.
+A lower bound of $O(n^2)$ in 1-dimension(Dumbbell configuration) <a href="http://arxiv.org/abs/1406.0769">[link]</a>.
 </li>
 <li>
-Strategic agents model is novel and studied in this <a href="http://arxiv.org/abs/1411.4814">paper</a>.
+The model of Strategic agents has been studied in this <a href="http://arxiv.org/abs/1411.4814">paper</a>.
 </li>
 <li>
-Here are our results on social HK model and non-determinsitic HK model <a href="http://arxiv.org/pdf/1503.01720.pdf">[link]</a>.
+Our results on social HK model and non-deterministic HK model - <a href="http://arxiv.org/pdf/1503.01720.pdf">[link]</a>.
 </li>
 <li>
-There is recent convergence result on a special case of Heterogenous case, where the agents can have a confidence bound of either 0 or 1, for more details you can go through this <a href="http://arxiv.org/abs/1502.03332">paper</a>.
+There is a recent result on the convergence for a special case of the heterogenous version of the problem. Here, the agents have a confidence 
+bound of either 0 or 1. For more details, you can go through this <a href="http://arxiv.org/abs/1502.03332">paper</a>.
 </li>
 <li>
-These are the two remarkable papers from Bernard Chazelle in this area, where he proves convergence and periodicity and other crazy stuffs for much general graphs. See <a href="http://arxiv.org/abs/1204.3946">here</a> and
-<a href="http://arxiv.org/abs/1004.1447">here</a> again.
+These are the two remarkable papers from Bernard Chazelle in this area, where he proves convergence and periodicity and other crazy results 
+for general graphs. See <a href="http://arxiv.org/abs/1204.3946">here</a> and <a href="http://arxiv.org/abs/1004.1447">here</a> for these
+results.
 </li>
 <li>
- Lastly I thought to cover another technique used in proving convergence in this area called the Adjoining dynamics. I am attaching a brief highlighted <a href="hk/Adjoining Dynamics.pdf">points</a> about this technique. However if you find it interesting and want to read more about it you can read these other attached papers <a href="hk/06190199.pdf">here</a> and <a href="hk/06580008.pdf">there</a>.
+Lastly I had thought of covering another technique called "Adjoining dynamics", which is again used to prove convergence for HK systems. I am 
+attaching a document which highlights a few <a href="hk/Adjoining Dynamics.pdf">points</a> about this technique. If you find it interesting and 
+want to read more about this technique, these papers can be read. <a href="hk/06190199.pdf">[paper1]</a> and 
+<a href="hk/06580008.pdf">[paper2]</a>.
 </li>
 </ul>
 
@@ -89,16 +125,18 @@ Speaker: Ninad Rajgopal </p>
 <ul>
 <li>
 The best reference for the probabilistic method -
-<a href="http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MATHEMATIQUE/PROBABILITY/The_Probabilistic_Method.pdf">The Probabilistic Method (Alon and Spencer) </a> </li>
+<a href="http://nguyen.hong.hai.free.fr/EBOOKS/SCIENCE%20AND%20ENGINEERING/MATHEMATIQUE/PROBABILITY/The_Probabilistic_Method.pdf">The 
+Probabilistic Method (Alon and Spencer) </a> </li>
 Chapter 5 talks about Lovasz Local Lemma and it's applications.
 <li>
 Another nice reference is this set of lecture notes by Matousek and Vondrak.
-<a href="https://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15859-f09/www/handouts/matousek-vondrak-prob-ln.pdf">The Probabilistic Method (Matousek and Vondrak) </a> </li>
+<a href="https://www.cs.cmu.edu/afs/cs.cmu.edu/academic/class/15859-f09/www/handouts/matousek-vondrak-prob-ln.pdf">The Probabilistic 
+Method (Matousek and Vondrak) </a></li>
 </li>
 <li>
-I could not cover the algorithmic aspects of the LLL. There have been many papers which have looked at the constructive (algorithmic) versions of this technique,
-with the most famous one being the <a href="http://arxiv.org/abs/0903.0544"> paper </a> by Moser and Tardos, which gives a constructive proof for the LLL. Hopefully, I might be able to 
-bring it up on a later date.
+I could not cover the algorithmic aspects of the LLL. There have been many papers which have looked at the constructive (algorithmic) 
+versions of this technique, with the most famous one being the <a href="http://arxiv.org/abs/0903.0544"> paper </a> by Moser and Tardos, 
+which gives a constructive proof for the LLL. Hopefully, I might be able to bring it up on a later date.
 </li>
 </ul>
 
